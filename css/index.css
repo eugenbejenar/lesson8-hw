@@ -1,0 +1,82 @@
+.container {
+  border: 2px solid black;
+}
+.container p {
+  color: white;
+}
+.container h2 {
+  text-align: center;
+}
+.container .header {
+  text-align: center;
+}
+.container .rec1 {
+  float: left;
+  height: 305px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background-color: red;
+}
+.container .rec2 {
+  float: left;
+  height: 305px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background-color: green;
+}
+.container .rec3 {
+  float: left;
+  height: 305px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background-color: blue;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .rec1 {
+    width: 33.33%;
+  }
+
+  .rec2 {
+    width: 33.33%;
+  }
+
+  .rec3 {
+    width: 33.33%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .rec1 {
+    width: 100%;
+  }
+
+  .rec2 {
+    width: 50%;
+  }
+
+  .rec3 {
+    width: 50%;
+  }
+}
+[class*=col-] {
+  float: left;
+  padding: 15px;
+}
+
+[class*=col-] {
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */

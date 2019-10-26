@@ -1,0 +1,35 @@
+    @import "_mixins";
+    .container {
+        border: 2px solid black;
+        @include text;
+        .rec1 {
+            float: left;
+            height: 305px;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 5px solid white;
+            background-color: red;
+        }
+        .rec2 {
+            float: left;
+            height: 305px;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 5px solid white;
+            background-color: green;
+        }
+        .rec3 {
+            float: left;
+            height: 305px;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 5px solid white;
+            background-color: blue;
+        }
+    }
+    
+    .clearfix {
+        overflow: auto;
+    }
+    
+    @include resolution;

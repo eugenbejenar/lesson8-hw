@@ -1,0 +1,47 @@
+@mixin resolution {
+    @media only screen and (min-width: 1024px) {
+        .container {
+            width: 60%;
+            margin: 0 auto;
+        }
+        .rec1 {
+            width: 33.33%;
+        }
+        .rec2 {
+            width: 33.33%;
+        }
+        .rec3 {
+            width: 33.33%;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .rec1 {
+            width: 100%;
+        }
+        .rec2 {
+            width: 50%;
+        }
+        .rec3 {
+            width: 50%;
+        }
+    }
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@mixin text {
+    p {
+        color: white;
+    }
+    h2 {
+        text-align: center;
+    }
+    .header {
+        text-align: center;
+    }
+}
