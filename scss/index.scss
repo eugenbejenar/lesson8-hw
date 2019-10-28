@@ -2,28 +2,22 @@
     .container {
         border: 2px solid black;
         @include text;
-        .rec1 {
+        .red,
+        .green,
+        .blue {
             float: left;
-            height: 305px;
+            height: 100%;
             padding: 20px;
             box-sizing: border-box;
             border: 5px solid white;
+        }
+        .red {
             background-color: red;
         }
-        .rec2 {
-            float: left;
-            height: 305px;
-            padding: 20px;
-            box-sizing: border-box;
-            border: 5px solid white;
+        .green {
             background-color: green;
         }
-        .rec3 {
-            float: left;
-            height: 305px;
-            padding: 20px;
-            box-sizing: border-box;
-            border: 5px solid white;
+        .blue {
             background-color: blue;
         }
     }
